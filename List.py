@@ -104,4 +104,20 @@ print(a)
 #리스트 정렬  sort
 print("리스트 정렬  sort")
 
+a = [1,4,3,2]
+print(a)
+a.sort();
+print(a.sort())
 
+a = ['a','c','b']
+print(a)
+a.sort()
+
+
+
+#리스트 뒤집기 reverse
+print("리스트 뒤집기 reverse")
+a = ['a','c', 'b']
+print(a)
+a.reverse()
+print(a)
