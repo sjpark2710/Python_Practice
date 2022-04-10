@@ -121,3 +121,60 @@ a = ['a','c', 'b']
 print(a)
 a.reverse()
 print(a)
+
+#리스트 위치 반환(index)
+print("리스트 위치 반환(index)")
+a = [1,2,3]
+print(a)
+print(a.index(2))
+print(a.index(3))
+
+#리스트 요소에 삽입(insert)
+print("리스트 요소에 삽입(insert)")
+a = [1,2,3]
+print(a)
+a.insert(0,4)
+print(a)
+a.insert(3,5)
+print(a)
+
+#리스트 요소 제거(remove)
+print("리스트 요소 제거(remove)")
+a = [1,2,3,1,2,3]
+print(a)
+a.remove(3)
+print(a)
+a.remove(3)
+print(a)
+
+#리스트 요소 끄집어 내기(pop)
+print("리스트 요소 끄집어 내기(pop)")
+a = [1,2,3]
+print(a)
+a.pop()
+print(a)
+
+a = [1,2,3]
+print(a)
+a.pop(1)
+print(a)
+
+#리스트에 포함된 요소x의 개수 세기(count)
+print("리스트에 포함된 요소x의 개수 세기(count)")
+a = [1,2,3,1]
+print(a)
+print(a.count(1))
+
+#리스트 확장(extend)
+print("리스트 확장(extend)")
+a = [1,2,3]
+print(a)
+a.extend([4,5])
+print(a)
+b = [6,7]
+print(b)
+a.extend(b)
+print(a)
+
+
+
