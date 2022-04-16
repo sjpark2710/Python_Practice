@@ -25,5 +25,32 @@ print("s1 : " ,s1,"s2 : ", s2)
 
 print("교집합\ns1 & s2\n",s1&s2)
 
+print("합집합\ns1 | s2\n",s1|s2)
 
+print("합집합\ns1.union(s2)\n",s1.union(s2))
 
+print("차집합\ns1-s2\n",s1-s2)
+
+print("차집합\ns1.difference(s2)\n",s1.difference(s2))
+
+print("차집합\ns2.difference(s1)\n",s2.difference(s1))
+
+print("집합 자료형 관련 함수")
+print("값 1개 추가하기(add)")
+s1 = set([1,2,3])
+print(s1,"\ns1.add(4)")
+s1.add(4)
+print(s1)
+
+print("값 여러 개 추가하기(update")
+s1 = set([1,2,3])
+print(s1)
+s1.update([4,5,6])
+print("s1.update([4,5,6])")
+print(s1)
+
+print("특정 값 제거하기(remove)")
+s1 = set([1,2,3])
+s1.remove(2)
+print("s1.remove(2)")
+print(s1)
