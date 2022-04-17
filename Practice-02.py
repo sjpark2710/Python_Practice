@@ -39,4 +39,9 @@ b = a.replace(":","#")
 
 print("b = a.replace(':', '#')\nb : ",b)
 
-
+print("Q6 : [1,3,5,4,2] 리스트를 [5,4,3,2,1]로 만들어 보자")
+a = [1,3,5,4,2]
+print(a)
+a.sort()
+print(a.sort())
+print(a.reverse())
