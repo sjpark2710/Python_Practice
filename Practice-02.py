@@ -46,3 +46,38 @@ a.sort()
 print(a.sort())
 print(a.reverse())
 
+print("Q7 : ['Life', 'is', 'too', 'short']리스트를 Life is too short 문자열로 만들어 출력해보자")
+a = ['Life', 'is','too','short']
+result = " ".join(a)
+print(result)
+
+print("Q8 : (1,2,3) 튜플에 값 4를 추가하여 (1,2,3,4)를 만들어 출력해보자")
+a = (1,2,3)
+print(a)
+b = (4,)
+c = a + b
+print(b)
+print(c)
+
+print("Q9 : 다음과 같은 딕셔너리 a가 있다.")
+a = dict()
+print(a)
+
+print("Q10 : 딕셔너리 a에서 'B'에 해당돠는 값을 추출해보자")
+a = {'A' : 90, 'B' : 80, 'C' : 70}
+print(a)
+result = a['B']
+del a['B']
+print(result)
+print(a)
+
+print("Q11 : a리스트에서 중복 숫자를 제거해 보자")
+a = [1,1,1,2,2,3,3,3,4,4,5]
+aSet = set(a)
+print(aSet)
+b = list(aSet)
+print(b)
+
+print("Q12 : 파이썬은 다음처럼 동일한 값에 여러개의 변수를 선언 할 수 있다. 다음과 같이 a,b 변수를 선언한 후")
+
+
