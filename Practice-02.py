@@ -52,6 +52,7 @@ result = " ".join(a)
 print(result)
 
 print("Q8 : (1,2,3) 튜플에 값 4를 추가하여 (1,2,3,4)를 만들어 출력해보자")
+
 a = (1,2,3)
 print(a)
 b = (4,)
