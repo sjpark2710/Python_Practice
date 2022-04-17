@@ -22,14 +22,21 @@ else:
 
 print("Q3 : 홍길동씨의 줌니등록번호는 881120 - 1068234이다. 홍길동씨의 주민등록번호를 연월일부분과 그 뒤의 숫자부분으로 나누어 출력해 보자")
 print("문자열 슬라이싱을 이용")
+pin = "881120-1068234"
+yyyymmdd = pin[:6]
+print("yyyymmdd : ",yyyymmdd)
+num = pin[7:]
+print("num : ",num)
 
+print("Q4 : 주민등록번호 뒷자리의 맨 첫번째 숫자는 성병을 나타낸다. 주민등록번호에서 성별을 나타낸다. 주민등록번호에서 성별을 나타내는 숫자를 출력해보자")
+print(pin)
+print("성별을 나타내는 숫자는 : ",pin[7])
 
+print("Q5 : 다음과 같은 문자열 a : b: c : d가 있다. 문자열의 replace 함수를 사용하여 a#b#c#d#로 바꿔서 출력해보자")
+a = "a:b:c:d"
+print(a)
+b = a.replace(":","#")
 
-
-
-
-
-
-
+print("b = a.replace(':', '#')\nb : ",b)
 
 
