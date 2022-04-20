@@ -36,7 +36,21 @@ for i in range(1,11):
 
 print(add)
 
+print("for문과 range 함수를 사용하여 1부터 100까지 더해보기")
+num = 0
+for i in range(1,101):
+    num = num +i
+    print(num)
 
+print(num)
+
+print("for문과 range함수를 사용한 구구단 출력하기")
+
+for i in range(2,10):
+    for j in range(2, 10):
+        print("%d * %d = %d"%(i,j,i*j))
+        if j ==8:
+            print("\n")
 
 
 
